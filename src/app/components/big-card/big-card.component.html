@@ -2,7 +2,7 @@
 
 
     <div class="big-card__photo">
-        <img src="https://angular.dev/assets/images/ng-image.jpg" 
+        <img src= "{{photoCover}}"
         alt=""
         width="400px"
         height="200px"
@@ -10,15 +10,14 @@
     </div>
 
         <div class="big-card__title">
-        <h1><a href="">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="">{{ cardTitle }}</a></h1>
     </div>
 
 
     <div class="big-card__description">
 
         <p>
-           <a href="#"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia a repellendus cum vel iusto enim reprehenderit voluptates fugit
-            , nulla illum perferendis, recusandae ab, modi itaque numquam animi quas ullam aliquam. </a>
+           <a href="#"> {{cardDescription }} </a>
         </p>
 
     </div>

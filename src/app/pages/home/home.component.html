@@ -6,12 +6,26 @@
 <div class="container__articles">
 
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card
+        photoCover="https://angular.dev/assets/images/ng-image.jpg"
+        cardTitle="Titulo publicação"
+        cardDescription="Novo Framework Angular é anunciado para ser lançado dia 13/03/2025"></app-big-card>
     </div>
 <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+
+    <app-small-card
+    imgSmallCard="https://ionic.io/blog/wp-content/uploads/2024/02/angular-feature-image-1.png"
+    titleSmallCard="Notícia 1">
+</app-small-card>
+
+    <app-small-card
+    imgSmallCard="https://miro.medium.com/v2/resize:fit:3840/1*BqyWtlAmAtk9JRO8b0uyNw.png"
+    titleSmallCard="Notícia 2">
+</app-small-card>
+
+    <app-small-card
+    imgSmallCard="https://i.redd.it/3splx63nx8c01.png"
+    titleSmallCard="Notícia 3"></app-small-card>
     </div>
     
 </div>
